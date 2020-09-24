@@ -1,14 +1,13 @@
 {
   "name": "first_node_site",
   "version": "1.0.0",
-  "description": "My first nod Website",
-  "main": "eze.js",
+  "description": "My portfolio Website",
+  "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Server.js"
   },
   "repository": {
-    "type": "git",
-    "url": "github.com/classEze/nodewebsite"
+    "type": "git"
   },
   "keywords": [
     "Growth"
@@ -16,9 +15,8 @@
   "author": "Eze",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "express3-handlebars": "^0.5.2",
-    "g": "^2.0.1",
-    "nodemon": "^2.0.4"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
   }
 }
